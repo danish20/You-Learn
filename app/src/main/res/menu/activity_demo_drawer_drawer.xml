@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Upload Presentation" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="View Another Presentation" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+    <item android:title="Your Heading Here">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Take Quiz" />
+        </menu>
+    </item>
+    <item android:title="Your Second Heading Here">
+        <menu>
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/nav_share1"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send1"
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Take Quiz" />
+            <item
+
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Take Quiz" />
+            <item
+
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Take Quiz" />
+            <item
+
+                android:icon="@drawable/ic_menu_camera"
+                android:title="Take Quiz" />
+            </group>
+
+        </menu>
+    </item>
+
+</menu>
